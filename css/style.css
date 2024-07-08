@@ -194,3 +194,342 @@
 }
 
 
+
+/* about section start */
+.about {
+  width: 1140px;
+  height: 550px;
+  border-radius: 10px;
+  margin: 130px auto;
+  background: rgb(255, 248, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-inner {
+  width: 827px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.about-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.personal-info-container {
+  display: flex;
+  gap: 47.5px;
+  text-align: center;
+  justify-content: center;
+}
+
+.info-items > h3 {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.info-items > p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* skills section */
+
+.skills {
+  margin-top: 130px;
+  width: 1140px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.skills-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skills-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 50px;
+  width: 909px;
+
+  
+}
+
+.skill-item {
+  width: 267px;
+  height: auto;
+  border-radius: 5px; 
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+}
+
+
+.skills-container > .description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 1140px;
+}
+
+.skills-container h3 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px 0;
+}
+
+
+.skill-item > .description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.resume {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edu-exp-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.resume > h2 {
+  margin: 130px 0 113px 0;
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.education-section > h3,
+.experience-section > h3 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.education-section-item > h4,
+.experience-section-item > h4 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.education-section-item > hr,
+.experience-section-item > hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.education-section-item > h5,
+.experience-section-item > h5 {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.education-section-item > p,
+.experience-section-item > p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 511px;
+}
+
+.resume > button {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 5px;
+  padding: 19px 17px;
+  background: rgb(253, 110, 10);
+  border: none;
+  margin-bottom: 130px;
+}
+
+.footer {
+  width: 1600px;
+  margin: 0 auto;
+  height: 780px;
+  background: rgb(255, 248, 243);
+}
+
+
+.footer-container {
+  margin: 0 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container h2 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+
+.footer-container p {
+  color: rgb(71, 71, 71);
+  width: 562px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;   
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input-container > input {
+  border-radius: 5px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  width: 461px;
+  border: none;
+  background: rgb(255, 255, 255);
+}
+
+.input-container > textarea {
+  border-radius: 5px;
+  width: 461px;
+  height: 180px;
+  background: rgb(255, 255, 255);
+  padding-top: 18px;
+  padding-left: 30px;
+  border: none;
+  
+}
+
+.input-container > button {
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 64px;
+  background: rgb(253, 110, 10);
+  border: none;
+  padding: 18px 39px;
+}
+
+.footer-left > .icon-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  margin-left: 0;
+}
