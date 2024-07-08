@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://kit.fontawesome.com/0a71e81b23.js');
+
+/* your CSS styles */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1600px;
+    height: 837px;
+    margin: 0 auto;
+    background: rgb(255, 248, 243);
+    position: relative;
+    z-index: -3;
+}
+
+.header > .developer-png {
+    position: absolute;
+    top: 38px;
+    left: 23px;
+}
+
+/* NAVIGATION BAR STYLES START */
+/* Navigation Bar Styles */
+
+.navbar {
+  margin-top: 68px;
+  margin: 0 226px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.navbar-logo > .highlight {
+  color: rgb(253, 110, 10);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Button Styles */
+
+.btn {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  padding: 18px 36px;
+}
+
+
+/* Hero Section Styles */
+
+.hero {
+  height: 725px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  margin: 0 226px;
+}
+
+.hero-text-part {
+  margin-top: 60px;
+}
+
+.hero-subtitle {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.hero-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+
+.hero-button-download {
+  border-radius: 5px;
+  padding: 20px 24px;
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: rgb(253, 110, 10);
+  margin-right: 30px;
+  border: none;
+}
+
+.hero-button-contact {
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 20px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(253, 110, 10);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.hero-image-part > .mary-profile {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+
+.hero-image-part > .mary-background {
+  position: absolute;
+  bottom: 0px;
+  right: 38px;
+  z-index: 1;
+}
+
+
